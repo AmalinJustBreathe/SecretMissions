@@ -1,0 +1,10 @@
+<div id="missions-table">
+<div class="missions-table-header">
+  <div class="agentID-header">Agent ID</div>
+  <div class="country-header">Country</div>
+  <div class="address-header">Address</div>
+  <div class="date-header">Date</div>
+</div>
+<missions-row *ngFor="let missionRow of missions" [mission]="missionRow" [ngClass]="{greenText: missionRow.isClosest, redText: missionRow.isFarest}"></missions-row>
+<div class="missions-table-footer">{{this.missions.length}} missions</div>
+</div>

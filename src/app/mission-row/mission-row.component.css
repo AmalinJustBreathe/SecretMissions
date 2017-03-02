@@ -1,0 +1,20 @@
+div{
+     padding-left: 0.7em;
+}
+
+.agent{
+    flex-basis: 10%;
+}
+
+.country{
+    flex-basis: 10%;
+}
+
+.address{
+    flex-basis: 50%;
+}
+
+.date{
+    flex-basis: 30%;
+}
+

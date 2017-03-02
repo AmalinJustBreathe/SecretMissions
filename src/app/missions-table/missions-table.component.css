@@ -1,0 +1,71 @@
+#missions-table{
+    width: 80%;
+    margin: auto;
+    --table-border-color: lightgrey;
+}
+
+.missions-table-header{
+    display: flex;
+    border: 1px solid var(--table-border-color);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 0.6% 0;
+    font-weight: bold;
+}
+
+.missions-table-header div{
+    border-right: 1px solid var(--table-border-color);
+    padding-left: 0.7em;
+}
+
+.missions-table-header :last-of-type{
+    border-right:none;
+}
+
+.agentID-header{
+    flex-basis: 10%;
+}
+
+.country-header{
+    flex-basis: 10%;
+}
+
+.address-header{
+    flex-basis: 50%;
+}
+
+.date-header{
+    flex-basis: 30%;
+}
+
+missions-row{
+    display: flex;
+    border: 1px solid var(--table-border-color);
+    border-bottom: none;
+    padding: 0.4em 0;
+}
+
+.missions-table-footer{
+    border: 1px solid var(--table-border-color);
+    border-top-width: 2px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0.6% 0;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.greenText{
+    color:green;
+}
+
+.redText{
+    color:red;
+}
+
+.greenText, .redText{    
+    -webkit-transition: color 1s ease ;
+    -moz-transition: color 1s ease ;
+    transition: color 1s ease ;
+}
